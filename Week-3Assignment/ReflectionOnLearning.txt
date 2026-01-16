@@ -1,0 +1,6 @@
+1. This assignment helped me understand that comments are not meant to explain obvious code, 
+   but to clarify intent, reasoning, or constraints that cannot be expressed through the written code alone. 
+2. I realized that excessive comments often indicate poor naming or unclear design. 
+3. By refactoring the code to use meaningful method and variable names, most comments became unnecessary. 
+4. I also learned that historical, emotional, and TODO comments quickly become misleading and should be avoided. 
+5. Going forward, I will focus on writing self-documenting code and only add comments when they provide context or explain why a decision was made.
