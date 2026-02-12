@@ -1,4 +1,6 @@
-package domain.payment;
+package domain;
+
+import common.Messages;
 
 public class Wallet {
 
@@ -6,7 +8,7 @@ public class Wallet {
 
     public Wallet(double initialBalance) {
         if (initialBalance < 0) {
-            throw new IllegalArgumentException("Initial balance cannot be negative.");
+            throw new IllegalArgumentException(Messages.NEGATIVE_INITIAL_BALANCE);
         }
         this.balance = initialBalance;
     }
@@ -24,7 +26,7 @@ public class Wallet {
 
     private void validateAmount(double amount) {
         if (amount <= 0) {
-            throw new IllegalArgumentException("Amount must be positive.");
+            throw new IllegalArgumentException(Messages.INVALID_AMOUNT);
         }
     }
 }

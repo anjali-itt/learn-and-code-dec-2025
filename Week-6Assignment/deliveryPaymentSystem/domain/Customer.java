@@ -1,4 +1,4 @@
-package domain.Customer;
+package domain;
 
 import domain.Wallet;
 
